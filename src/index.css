@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.gradient-background {
+  /* Replace these colors with your desired sunrise and sunset colors */
+  background-image: linear-gradient(to bottom, #FFD700, #FF4500);
+  /* fallback for older browsers */
+  background-image: -webkit-linear-gradient(top, #FFD700, #FF4500);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background-image: -moz-linear-gradient(top, #FFD700, #FF4500);
+  /* Firefox 3.6-15 */
+  background-image: -o-linear-gradient(top, #FFD700, #FF4500);
+  /* Opera 11.10-12.00 */
+  background-image: -ms-linear-gradient(top, #FFD700, #FF4500);
+  /* IE 10-11 */
+  background-image: linear-gradient(to bottom, #FFD700, #FF4500);
+  /* Standard syntax */
+  /* Add any other necessary styles */
+  width: 100%;
+  height: 100vh; /* Set the height as needed */
+
+}
+
+
